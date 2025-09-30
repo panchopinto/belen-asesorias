@@ -38,9 +38,25 @@
 <main id="contenido" class="container">
 
 <section>
-  <h1>Portafolio</h1>
-  <p class="lead">Proyectos realizados, materiales y evidencias.</p>
-  <div id="cards-proyectos" class="grid"></div>
+
+<h1>Portafolio</h1>
+<p class="lead">Casos y materiales. Filtra por tipo de proyecto.</p>
+
+<div class="card" role="region" aria-label="Filtros">
+  <label class="small">Filtrar por etiqueta
+    <select id="filtro-etiqueta">
+      <option value="">Todas</option>
+      <option value="PIE">PIE</option>
+      <option value="DUA">DUA</option>
+      <option value="Portafolio">Portafolio</option>
+      <option value="Evaluación">Evaluación</option>
+      <option value="Tesis">Tesis</option>
+    </select>
+  </label>
+</div>
+
+<div id="cards-proyectos" class="grid" aria-live="polite"></div>
+
 </section>
 
 </main>

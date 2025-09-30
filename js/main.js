@@ -27,7 +27,31 @@ function mountTestimonios(){
       </article>`).join('');
   });
 }
+
 function mountPortafolio(){
+  const el = document.querySelector('#cards-proyectos');
+  const filtro = document.querySelector('#filtro-etiqueta');
+  if(!el) return;
+  loadJSON('../data/proyectos.json').then(items=>{
+    function render(list){
+      el.innerHTML = list.map(p=>`
+        <article class="card">
+          <h3>${p.emoji} ${p.nombre}</h3>
+          <p>${p.resumen}</p>
+          <p class="small">${p.etiquetas.join(' · ')}</p>
+          ${p.url ? `<p><a class="btn btn-ghost" href="${p.url}" target="_blank" rel="noopener">Ver proyecto</a></p>`:''}
+        </article>`).join('');
+    }
+    function apply(){
+      const tag = (filtro && filtro.value) ? filtro.value : '';
+      const list = tag ? items.filter(i=>i.etiquetas.includes(tag)) : items;
+      render(list);
+    }
+    if(filtro){ filtro.addEventListener('change', apply); }
+    apply();
+  });
+}
+
   const el = document.querySelector('#cards-proyectos');
   if(!el) return;
   loadJSON('../data/proyectos.json').then(items=>{

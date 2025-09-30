@@ -18,5 +18,34 @@
       "DUA"
     ],
     "url": ""
+  },
+  {
+    "emoji": "🧩",
+    "nombre": "Ajustes Razonables en Aula",
+    "resumen": "Estrategias y ejemplos implementados en lenguaje y ciencias.",
+    "etiquetas": [
+      "PIE",
+      "DUA"
+    ],
+    "url": ""
+  },
+  {
+    "emoji": "📝",
+    "nombre": "Rúbricas Portafolio",
+    "resumen": "Diseño y validación de rúbricas para evidencias docentes.",
+    "etiquetas": [
+      "Portafolio",
+      "Evaluación"
+    ],
+    "url": ""
+  },
+  {
+    "emoji": "🎓",
+    "nombre": "Mentoría de Tesis",
+    "resumen": "Acompañamiento en estructura, instrumentos y presentación final.",
+    "etiquetas": [
+      "Tesis"
+    ],
+    "url": ""
   }
 ]
