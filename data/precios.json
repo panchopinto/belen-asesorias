@@ -1,0 +1,17 @@
+[
+  {
+    "servicio": "Proyectos inclusivos (plan base)",
+    "precio": "150000",
+    "moneda": "CLP"
+  },
+  {
+    "servicio": "Acompañamiento tesis (plan base)",
+    "precio": "120000",
+    "moneda": "CLP"
+  },
+  {
+    "servicio": "Portafolio docente (plan base)",
+    "precio": "140000",
+    "moneda": "CLP"
+  }
+]
