@@ -22,3 +22,14 @@ Reg. SECREDUC N° 147.037
 
 ## Licencia
 MIT — ver `LICENSE`.
+
+
+## Extras implementados
+- Página **Agendar** con enlaces a Calendly/Google/WhatsApp.
+- **SEO**: `sitemap.xml`, `robots.txt`, OG por página y **JSON‑LD** (Person).
+- **Analytics**: GA4 listo + eventos (WhatsApp, mailto, Calendly).
+- **Textos comerciales**: planes y **FAQ** en Servicios.
+- **Accesibilidad**: foco visible, skip-link y página de explicación.
+- **Performance**: `styles.min.css`, `main.min.js`, `defer`, `preload` y lazy‑load de imágenes.
+- **Legal**: términos, cookies y banner de consentimiento.
+- **Protección básica**: bloqueo de clic derecho, selección y atajos DevTools.

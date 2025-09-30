@@ -8,9 +8,17 @@
   <meta name="theme-color" content="#0ea5e9"/>
   <link rel="icon" href="img/logo.svg" type="image/svg+xml"/>
   <link rel="stylesheet" href="css/styles.min.css"/>
-  <meta property="og:title" content="Belén Acuña — Asesorías Educativas Inclusivas — Contacto"/>
+  <meta property="og:title" content="Belén Acuña — Asesorías Educativas Inclusivas — Accesibilidad"/>
   <meta property="og:description" content="Psicopedagoga | Proyectos inclusivos, tesis y portafolio docente"/>
   <meta property="og:type" content="website"/>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Belén Acuña Pérez", "jobTitle": "Psicopedagoga", "description": "Asesorías en proyectos educativos inclusivos, apoyo a tesis y portafolio docente.", "email": "mailto:belen.acpe@gmail.com", "telephone": "+56 9 6266 4960", "url": "https://TU_USUARIO.github.io/belen-asesorias"}</script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
@@ -24,7 +32,7 @@
 <body>
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <header class="topbar">
-  <a class="brand" href="pages/contacto.html">
+  <a class="brand" href="pages/servicios.html">
     <img loading="lazy" src="img/logo.svg" alt="Logo Belén Acuña"/>
     <span>Belén Acuña</span>
   </a>
@@ -38,23 +46,9 @@
 <main id="contenido" class="container">
 
 <section>
-  <h1>Contacto</h1>
-  <p class="lead">Cuéntame de tu necesidad y te respondo a la brevedad.</p>
-  <form class="form" action="mailto:belen.acpe@gmail.com" method="post" enctype="text/plain">
-    <label>Nombre<input name="nombre" required/></label>
-    <label>Email<input type="email" name="email" required/></label>
-    <label>Tipo de asesoría
-      <select name="tipo">
-        <option>Proyecto educativo inclusivo</option>
-        <option>Apoyo en tesis</option>
-        <option>Portafolio evaluación docente</option>
-        <option>Otra</option>
-      </select>
-    </label>
-    <label>Mensaje<textarea name="mensaje" rows="6" placeholder="Describe brevemente tu caso"></textarea></label>
-    <button class="btn" type="submit">Enviar</button>
-    <p class="small">También puedes escribirme por WhatsApp: <a href="https://wa.me/56962664960?text=Hola%20Bel%C3%A9n,%20me%20interesa%20tu%20asesor%C3%ADa">https://wa.me/56962664960?text=Hola%20Bel%C3%A9n,%20me%20interesa%20tu%20asesor%C3%ADa</a></p>
-  </form>
+  <h1>Accesibilidad (a11y)</h1>
+  <p class="lead">Buenas prácticas para que el sitio sea usable por todas las personas: alto contraste, navegación por teclado, textos alternativos, etiquetas claras y foco visible.</p>
+
 </section>
 
 </main>
@@ -66,3 +60,13 @@
 <script src="js/main.min.js" defer></script>
 </body>
 </html>
+
+<section>
+  <h2>Medidas aplicadas</h2>
+  <ul>
+    <li>Foco visible al navegar con teclado.</li>
+    <li>Enlaces y botones con texto claro.</li>
+    <li>Atajos: “Saltar al contenido”.</li>
+    <li>Contrastes verificados en tema oscuro.</li>
+  </ul>
+</section>
